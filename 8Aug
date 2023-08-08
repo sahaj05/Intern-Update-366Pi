@@ -1,0 +1,9 @@
+Docker installed successfully.
+Learnt to make container with and without flags.
+Learnt different docker commands used to read and inspect containers.
+Studied the use case of docker and its purpose.
+Created my own docker image.
+Learnt the critical concept of -d command.
+Next aim is to fully deploy an application using docker.
+Next aim is also to deploy multiple apps at an instance using supervisor.
+
