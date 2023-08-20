@@ -1,0 +1,4 @@
+Implemented load balancing for different microservices using tools like Nginx or HAProxy.
+Was unable to run at first instance so took some time to research on it by using tools like stackoverflow and gfg(geeksforgeeks)to have a better understanding of this topic.
+Again tried to implement blockbook installation but was stuck again by some unwanted errors on the last step of the documentation that I was reffering to.
+Ended the day in watching  some youtube vidoes that would help solving this issue.
