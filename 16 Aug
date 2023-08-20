@@ -1,0 +1,4 @@
+Changed my system to solve compatibility issues and reinstalled all necessary softwares.
+Continued with my self practise of linux commands and tried the installation of blockbook again by referring to the github access of ranchimall given to me.
+Spent the next two hours in setting up psql and successfully was able to run it by using docker via Dbeaver software.
+Researched and implemented methods for backing up and restoring data from my Dockerized database.
