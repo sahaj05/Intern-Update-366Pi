@@ -1,0 +1,5 @@
+ Build docker image of flosight and run it as learning.
+ Tried installing and running the blockbook manually.Faced some issues so left it at that time.
+ Learnt the creation of docker file where the base image is not imported while the docker image is being created.
+ Worked on my self learning project of creating a backend database storing login details of users and then to deploy that finally on docker.
+  
