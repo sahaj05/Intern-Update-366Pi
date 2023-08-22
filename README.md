@@ -2,16 +2,16 @@
 
 
 # 2 AUGUST
-First day at work at the Banglore office.
-Was introduced to the team.
-Got to know about the rules and the regulations one has to abide by in the company.
-Had a meeting with seniors who guided me about the domain of work our company entails into.
+1.First day at work at the Banglore office.
+2.Then I was introduced to the team.
+3.Got to know about the rules and the regulations one has to abide by in the company.
+4.Had a meeting with seniors who guided me about the domain of work our company entails into.
 
 
 # 3 AUGUST
-I was introduced to a new blockchain flo-chain.
-Referred several documentations to learn about it and its use case.
-Got introduced to our app and its use case.
+1.I was introduced to a new blockchain flo-chain.
+2.Referred several documentations to learn about it and its use case.
+3.Got introduced to our app and its use case.
 
 
 # 4 AUGUST
