@@ -1,4 +1,4 @@
-# Synopys Of My Daily Work Schedule As An Intern In 366Pi Technologies
+# Synopis Of My Daily Work Schedule As An Intern In 366Pi Technologies
 
 
 ## 2 August
@@ -117,6 +117,31 @@
 4. Henceforth would look to successfully login into the server tomorrow.
 5. Then would finish my backlog activities and would convert all files till date into a single README.md file to make it 
    more presentable.
+
+
+### Documentations Link
+1. https://github.com/ranchimall/flosight-docker
+2. https://github.com/ranchimall/blockbook/wiki/Installing-FLO-blockbook-in-Ubuntu
+3. https://github.com/docker/docs
+4. https://github.com/Supervisor/supervisor
+
+
+### Websites Link
+1. https://medium.com/
+2. https://towardsdatascience.com/
+3. https://hub.docker.com/
+
+
+### Vidoes Link
+1. https://www.youtube.com/watch?v=X3Wtjwu0vBI&t=3725s
+2. https://www.youtube.com/watch?v=Dlbx15qU9zE
+3. https://www.youtube.com/watch?v=C-bX86AgyiA&t=103s
+4. https://www.youtube.com/watch?v=tdxfbxe6r4I&t=1289s
+5. https://www.youtube.com/watch?v=gAkwW2tuIqE
+6. https://www.youtube.com/watch?v=Gjnup-PuquQ
+
+
+
 
   
 
