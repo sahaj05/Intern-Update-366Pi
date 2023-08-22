@@ -1,4 +1,0 @@
-Learnt about the supervisor commands and implemented commands like -j,-i,-q,-k etc.
-Learnt about supervisorctl Actions ,signals and run time security.
-In docker learning to deploy applications in containers.For that developing my own login page that uses flask,mysql on the backend  and html,bootstrap and css for frontend.
-Learning about docker compost files to deploy applications.
