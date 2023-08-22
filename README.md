@@ -2,16 +2,16 @@
 
 
 # 2 AUGUST
-1.First day at work at the Banglore office.
-2.Then I was introduced to the team.
-3.Got to know about the rules and the regulations one has to abide by in the company.
-4.Had a meeting with seniors who guided me about the domain of work our company entails into.
+1. First day at work at the Banglore office.
+2. Then I was introduced to the team.
+3. Got to know about the rules and the regulations one has to abide by in the company.
+4. Had a meeting with seniors who guided me about the domain of work our company entails into.
 
 
 # 3 AUGUST
-1.I was introduced to a new blockchain flo-chain.
-2.Referred several documentations to learn about it and its use case.
-3.Got introduced to our app and its use case.
+1. I was introduced to a new blockchain flo-chain.
+2. Referred several documentations to learn about it and its use case.
+3. Got introduced to our app and its use case.
 
 
 # 4 AUGUST
@@ -22,43 +22,45 @@ Referred some youtube vidoes to get an in depth analysis of the same.
 
 
 # 5 AUGUST
-Tried installind docker but was unable to due to some firewall denial of permissions.
-Continued to browse fireship youtube channel to further explore my learnings on docker tools.
-Got introduced to new terms like containers and docker images.
-Learnt about the difference between the two and noted down some important commands by referring github articles that could come handy in the future.
+1. Tried installind docker but was unable to due to some firewall denial of permissions.
+2. Continued to browse fireship youtube channel to further explore my learnings on docker tools.
+3. Got introduced to new terms like containers and docker images.
+4. Learnt about the difference between the two and noted down some important commands by referring github articles that 
+   could come handy in the future.
 
 # 8 AUGUST
-Docker installed successfully.
-Learnt to make container with and without flags.
-Learnt different docker commands used to read and inspect containers.
-Studied the use case of docker and its purpose.
-Created my own docker image.
-Learnt the critical concept of -d command.
-Next aim is to fully deploy an application using docker.
-Next aim is also to deploy multiple apps at an instance using supervisor.
+1. Docker installed successfully.
+2. Learnt to make container with and without flags.
+3. Learnt different docker commands used to read and inspect containers.
+4. Studied the use case of docker and its purpose.
+5. Created my own docker image.
+6. Learnt the critical concept of -d command.
+7. Next aim is to fully deploy an application using docker.
+8. Next aim is also to deploy multiple apps at an instance using supervisor.
 
 
 # 9 AUGUST
-Learnt the use case of docker and why it is better than virtual machines.
-Read about the use case of docker in block book.
-Learning to deploy any application by using docker commands in a container.
-Learning about different servers and their use case like https,dns etc:
-Learning about nginx server.
+1. Learnt the use case of docker and why it is better than virtual machines.
+2. Read about the use case of docker in block book.
+3. Learning to deploy any application by using docker commands in a container.
+4. Learning about different servers and their use case like https,dns etc:
+5. Learning about nginx server.
 
 
 # 10 AUGUST
-Learnt about the supervisor commands and implemented commands like -j,-i,-q,-k etc.
-Learnt about supervisorctl Actions ,signals and run time security.
-In docker learning to deploy applications in containers.For that developing my own login page that uses flask,mysql on the backend  and html,bootstrap and css for frontend.
-Learning about docker compost files to deploy applications.
+1. Learnt about the supervisor commands and implemented commands like -j,-i,-q,-k etc.
+2. Learnt about supervisorctl Actions ,signals and run time security.
+3. In docker learning to deploy applications in containers.For that developing my own login page that uses flask,mysql on 
+   the backend  and html,bootstrap and css for frontend.
+4. Learning about docker compost files to deploy applications.
 
 
 # 12 AUGUST
- Build docker image of flosight and run it as learning.
- Tried installing and running the blockbook manually.Faced some issues so left it at that time.
- Learnt the creation of docker file where the base image is not imported while the docker image is being created.
- Worked on my self learning project of creating a backend database storing login details of users and then to deploy that 
- finally on docker.
+ 1. Build docker image of flosight and run it as learning.
+ 2. Tried installing and running the blockbook manually.Faced some issues so left it at that time.
+ 3. Learnt the creation of docker file where the base image is not imported while the docker image is being created.
+ 4. Worked on my self learning project of creating a backend database storing login details of users and then to deploy 
+    that finally on docker.
 
 
 # 14 AUGUST
