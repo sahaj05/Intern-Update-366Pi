@@ -1,3 +1,0 @@
-Designed a simple microservices architecture with multiple Docker containers.
-Explored service discovery tools like Consul or etcd to manage communication between microservices.
-Successfully created the docker file for the previously built docker image of flosight.
