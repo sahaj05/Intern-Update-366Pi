@@ -1,6 +1,0 @@
-Was unwell so could not open lapotop in the first half of the day .
-Installed tools like Jenkins to implement CI/CD pipelines using docker.
-Next goal is to be able to configure automated image builds triggered by code changes in a repository.
-Tomorrow the goal is to be able to implement CI/CD pipelines and further revise all the docker content that I have previously learnt and executed.
-Further I want to switch to linux so via virtual box would set the enviornment for that.
-Also want to finish my self learning on Docker Orchestration with Kubernetes.
