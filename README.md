@@ -119,11 +119,127 @@
    more presentable.
 
 
+## 22 August
+1. Able to do ssh in our brahmagupta server and was able to access the UI interface of blockbook from my web browser.
+2. We user wget-open command to open blockbook from your ubuntu machine.
+3. Set up my vs code remote explorer so that next logins are easier and less time consuming.
+
+
+## 25 August
+1. Figured out how you can access an app through inside a server.
+2. Figured out how to access the app from outside the server through public internet.
+
+
+## 26 August
+1. Next task is to try dockerisng blockbook.
+2. Went throught the manual steps for installation and referred chatgpt for automating these steps.
+
+
+## 27 August
+1. I was using the wrong base image which was not from ranchimall repository instead was taken from trezor blockbook.
+2. Visited docker hub to search any other blockbook images present.
+3. Also was cloning the wrong repository in my dockerfile.
+
+
+## 28 August
+1. Changed the base image to ubuntu latest 20.04.
+2. Changed the repository from which cloning was taking place.
+3. Optimised this further by using wget directly to access the deb files for backend and blockbook flo .
+   
+
+## 2 September
+1. After getting the deb files I was not able to install as on performing the make-all-flo step an error of docker daemon not there was coming indicating no docker.
+2. Searched up articles to solve this error and understood that here there is a docker required inside a docker.
+3. Surfed stack overflow for appropriate measures to mitigate this issue.
+
+
+## 3 September
+1. Updated the first code version of dockerised blockbook.
+2. For the deb files to be downloaded we set up a continous integration system where these steps are automated and would perform as the code is pushed into the respective     repository.
+
+
+## 4 September
+1. Now the files are getting installed but the systemctl command required to start both applications comprising the blockbook cannot be used.
+2. Since the systemctl command is not applicable in docker so the applications are not starting .
+3. Was asked to perform a 51perent attack on flo chain to test security actions.
+4. Installed flo but was stuck in authenticating it.
+
+
+## 5 September
+1. Studied about supervisors and how it can be used to start both applications in the same container.
+2. Started to prepare for my intra session on docker.
+
+
+## 6 September
+1. For my presentation I created a flask appliation that would on running print "hello" on the api it is hosted on through docker.
+2. I also created certain python files that would show the output when it is run via docker.
+3. Practised other docker commands and formalised my subtopics I wanted to cover.
+
+
+## 7 September 
+1. In the dockerfile for blockbook we changed the systemctl commands by accessing the actual EXEC command that runs starts the application and placed it under CMD command.
+2. On building the dockerimage and on going inside the container under the -it mode ,the backend-flo application runs successfully.
+
+
+## 8 September
+1. The same approach failed for starting the blockbook appliacation and on putting the EXEC command under the CMD unexpected error like no file found comes up showing some 
+   error that is missed.
+2. Also tried to use a bash script and then to put the starting commands inside the script and call the script in the docker code .
+3. This approach also failed and the applications did not start.
+
+
+## 12 September
+1. Started to debug my error.html file present in the blockbook docker and sought permission issues for the same.
+2. Changed the user permission and relaised that two different users were using the blockbook and backend application one being the flo user and the other being the       
+   blockbook-flo user.
+3. The error persisted and on doing cat and ls to check the file it shows that the file exists and is not empty.
+
+## 13 September
+1. Conducted my session on docker and its implementation including several use cases.
+2. Tried several methods to run docker inside a docker manually to test how it is implemented.
+
+
+## 14 September
+1. Made no progress and tried to explore different methods to start the applications.
+2. Studied about the nature of systemd files and how commands work in it.
+
+
+## 18 September
+1. Found a sysbox tool through which we get an ubuntu image satisfying the requirements of docker used inside a docker container.
+2. Referred documentation to complete installation steps.
+3. While installing got stuck in the make step where the error says "makefile not found".
+
+
+## 19 September
+1. Fixed the issue and installed sysbox.
+2. Also realised that the environment has to be same where we are building the image and where the deb files are installed.
+3. For that we via the -it mode entered the container and then made the .deb files there inside manually to make the same environment.
+4. Also since in sysbox systemd files can be used so systemctl works here and in a seperate text file we put the systemctl commands.
+
+
+## 20 September
+1. Blockbook was run successfully via our dockerfile.
+2. Final solution is to use sysbox for making container and then to make docker in it.
+3. Deployes our docker image in the docker hub and pushed the changes to github.
+
+
+## 21 September
+1. For improving further working on how to make more ports accessible so that better synchronization takes place of the blocks.
+2. Also working on how bootstrap can be added to reudce the memory size of the built docker image.
+
+
+
+### INTERNSHIP ENDS
+
+
+
 ### Documentations Link
 1. https://github.com/ranchimall/flosight-docker
 2. https://github.com/ranchimall/blockbook/wiki/Installing-FLO-blockbook-in-Ubuntu
 3. https://github.com/docker/docs
 4. https://github.com/Supervisor/supervisor
+5. https://github.com/nestybox/sysbox/tree/master/docs/developers-guide
+6. https://github.com/cruizba/ubuntu-dind
 
 
 ### Websites Link
@@ -139,6 +255,21 @@
 4. https://www.youtube.com/watch?v=tdxfbxe6r4I&t=1289s
 5. https://www.youtube.com/watch?v=gAkwW2tuIqE
 6. https://www.youtube.com/watch?v=Gjnup-PuquQ
+
+
+### Important Linux Commands Used
+1. ls - List Files and Directories: List files and directories in the current directory.
+2. cd - Change Directory: Change the current working directory.
+3. pwd - Print Working Directory: Display the current working directory's full path.
+4. mkdir - Make Directory: Create a new directory.
+5. rm - Remove Files and Directories: Delete files and directories.
+6. cat - Concatenate and Display File Content: Display the content of a file.
+7. more/less - Page Through Text: Display text files one screen at a time.
+8. head/tail - Display the Beginning/End of Files: Display the first or last few lines of a file.
+9. grep - Search Text: Search for text patterns in files.
+10.find - Search for Files and Directories: Search for files and directories based on various criteria.
+11.chmod - Change File Permissions: Modify file permissions (read, write, execute) for users, groups, and others.
+
 
 
 
