@@ -267,8 +267,8 @@
 7. more/less - Page Through Text: Display text files one screen at a time.
 8. head/tail - Display the Beginning/End of Files: Display the first or last few lines of a file.
 9. grep - Search Text: Search for text patterns in files.
-10.find - Search for Files and Directories: Search for files and directories based on various criteria.
-11.chmod - Change File Permissions: Modify file permissions (read, write, execute) for users, groups, and others.
+10. find - Search for Files and Directories: Search for files and directories based on various criteria.
+11. chmod - Change File Permissions: Modify file permissions (read, write, execute) for users, groups, and others.
 
 
 
