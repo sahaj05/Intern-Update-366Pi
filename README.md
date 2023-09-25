@@ -228,11 +228,16 @@
 2. Also working on how bootstrap can be added to reudce the memory size of the built docker image.
 
 
+## 22 September
+ 1. Updated the readme files by documenting all the steps required for implementation of blockbook.
+ 2. Recorded 3 videos ,2 of them uploaded on youtube showing manual demonstration of working along with one video recorded via screen recording just showing the text with
+    no audio.
+ 3. Working on testnet environment by referring flo card's repository.
 
 
-
-# **INTERNSHIP ENDS**
-
+## 25 September
+1. Learning the implementation of volume mounting.
+2. Fixing the testnet environment for blockbook.
 
 
 
