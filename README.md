@@ -240,6 +240,28 @@
 2. Fixing the testnet environment for blockbook.
 
 
+## 26 September
+1. Build the deb files for testnet inside the docker container manually.
+2. Studied the ports required for testnet network.
+
+
+## 27 September
+1. Successfully run the dockerfile for testnet networks.The issue was that I was using the wrong port while running the dockerfile.
+2. Uploaded the  official docker image of testnet network in the docker-hub so that the user does not have to build the docker image manually.
+3. Recorded a youtube video demonstrating the procedure for accessing the blockbook application through both mainnet and testnet network.
+
+
+## 28 September  
+1. Finished the documentation for both mainnet and testnet files.
+2. Had a brief study session on CI pipelines and referred the previous files implemented for the project.
+3. Project has been completed successfully and with this the internship ends.
+
+
+
+#********************************************************INTERNSHIP ENDS*******************************************************************************
+   
+
+
 
 
 ### Documentations Link
